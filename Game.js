@@ -53,14 +53,12 @@ class Game {
     }
 
     pointWonBy(player) {
-        // Increment appropriate player's score
+        // Increment score
         if(player == this.p1.name) {
             this.p1.addPoint();
         } else if(player == this.p2.name) {
             this.p2.addPoint();
-        } else {
-            // Error handling for input not required as per instructions
-        }
+        } 
     }
 }
 
